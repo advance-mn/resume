@@ -559,9 +559,6 @@ ol.type li a:hover {
 }
 /* Testimonials Section */
 #testimonials {
-	background: url(../img/testimonial-bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
 	color: #ddd;
 	padding: 80px 0;
 }
