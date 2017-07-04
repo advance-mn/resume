@@ -3,8 +3,7 @@ function main() {
 
 (function () {
    'use strict';
-   
-   // jQuery to collapse the navbar on scroll
+
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -13,7 +12,7 @@ $(window).scroll(function() {
     }
 });
 
-   // Testimonial Slider
+
   	$('a.page-scroll').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -27,9 +26,7 @@ $(window).scroll(function() {
         }
       });
 
-    /*====================================
-    Show Menu on Book
-    ======================================*/
+
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 100;
         if ($(window).scrollTop() > navHeight) {
@@ -54,9 +51,7 @@ $(window).scroll(function() {
 
   	});
 
-  	/*====================================
-    Portfolio Isotope Filter
-    ======================================*/
+
     $(window).load(function() {
         var $container = $('.portfolio-items');
         $container.isotope({
@@ -84,22 +79,17 @@ $(window).scroll(function() {
 
     });
 	
-	// ****************************************************************
-// counterUp
-// ****************************************************************
 
 	$(document).ready(function( $ ) {
 		if($("span.count").length > 0){	
 			$('span.count').counterUp({
-					delay: 10, // the delay time in ms
-			time: 1000 // the speed time in ms
+				delay: 10,
+				time: 1000
 			});
 		}
 	});
 
-  	/*====================================
-    Pretty Photo
-    ======================================*/
+
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
 	});	
