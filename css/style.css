@@ -2,7 +2,7 @@ body, html {
 	font-family: microsoft yahei, sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #555;
+	color: #300;
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -97,6 +97,8 @@ ul, ol {
 	-webkit-transition: background .3s ease-in-out;
 	-moz-transition: background .3s ease-in-out;
 	transition: background .3s ease-in-out;
+	font-size:larger;
+	line-height: 40px;
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
@@ -243,7 +245,7 @@ ul, ol {
 }
 }
 .section-title.center {
-	padding: 30px 0 0 0;
+	padding: 50px 0 0 0;
 }
 .section-title h2, .section-title.center h2 {
 	font-weight: 400;
@@ -344,7 +346,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f7275', end
 	background: -o-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #ffffff 0%, #cccccc 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%); /* W3C */
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0 ); /* IE6-9 */
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc', GradientType=0 ); /* IE6-9 */
 }
 img.img-circle.basicinfo-img {
 	width: 120px;
