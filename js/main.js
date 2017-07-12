@@ -4,6 +4,38 @@ function main() {
 (function () {
    'use strict';
 
+    // for skill chat jquary
+    $(document).ready(function(e) {
+        //var windowBottom = $(window).height();
+        var index = 0;
+        $(document).scroll(function() {
+                var top = $('.technical').height() - $(window).scrollTop();
+                var width = $('.technical').width();
+
+                if (width > 768) {
+                    var topMax = 100;
+                }
+                else{
+                	topMax = 1500;
+                }
+                if (top < topMax) {
+                    if (index == 0) {
+
+                        $('.chart').easyPieChart({
+                            easing: 'easeOutBounce',
+                            onStep: function(from, to, percent) {
+                                $(this.el).find('.percent').text(Math.round(percent));
+                            }
+                        });
+
+                    }
+                    index++;
+                }
+            })
+            //console.log(nagativeValue)
+    });
+
+
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");

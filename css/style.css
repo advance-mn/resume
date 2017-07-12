@@ -244,9 +244,7 @@ ul, ol {
  transform: scale(1);
 }
 }
-.section-title.center {
-	padding: 50px 0 0 0;
-}
+
 .section-title h2, .section-title.center h2 {
 	font-weight: 400;
 	margin-bottom: 30px;
@@ -258,12 +256,11 @@ ul, ol {
 	position: relative;
 	background: #F4D03F;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	border: 0;
 }
 /* About Section */
 #about {
-	padding: 80px 0;
 	color: #444;
 	background: #f4d03f; /* Old browsers */
 	background: -moz-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* FF3.6+ */
@@ -271,7 +268,7 @@ ul, ol {
 	background: -webkit-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%); /* W3C */
+	background: linear-gradient(to bottom, #dad8cd 70%, #a5a4a2 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', endColorstr='#c3a632', GradientType=0 ); /* IE6-9 */
 }
 #about .about-text {
@@ -354,7 +351,7 @@ img.img-circle.basicinfo-img {
 	border: 4px solid transparent;
 	transition: all 0.5s;
 }
-#basicinfo .thumbnail:hover>img.img-circle. basicinfo-img {
+#basicinfo .thumbnail:hover>img.img-circle.basicinfo-img {
 	border: 4px solid #F4D03F;
 	font-size: medium;
 }
@@ -364,10 +361,10 @@ img.img-circle.basicinfo-img {
 }
 #basicinfo .thumbnail .caption {
 	padding: 9px;
-	color: #5a5a5a;
+	color: #aaa;
 }
 /* Services Section */
-#services {
+#basicinfo {
 	padding: 80px 0;
 	color: #aaa;
 	background: #6f7275; /* Old browsers */
@@ -379,13 +376,13 @@ img.img-circle.basicinfo-img {
 	background: linear-gradient(to bottom, #6f7275 0%, #31353a 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f7275', endColorstr='#31353a', GradientType=0 ); /* IE6-9 */
 }
-#services .section-title.center hr {
+#basicinfo .section-title.center hr {
 	background: #c1a533;
 }
-#services H2 {
+#basicinfo H2 {
 	color: #ddd;
 }
-#services H4 {
+#basicinfo H4 {
 	color: #F4D03F;
 	transition: all 0.5s;
 }
@@ -561,7 +558,6 @@ ol.type li a:hover {
 }
 /* Testimonials Section */
 #testimonials {
-	color: #ddd;
 	padding: 80px, 0;
 }
 
@@ -593,9 +589,6 @@ ol.type li a:hover {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-
-
-
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 10px;
@@ -619,7 +612,7 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: #f9f9f9; /* Old browsers */
 }
 #contact h3 {
@@ -642,5 +635,103 @@ label {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 }
-
+.addspace {
+    height: 60px;
+    background: #eeeeee;
+}
+.technical {
+    /*background:#eeeeee;
+    color:#474d5d;*/
+}
+.technical .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.technical .heading p {
+    padding-bottom: 41px;
+    max-width: 660px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.technical .heading p a {
+    text-decoration: underline;
+    color: #ef7674;
+}
+.technical p {
+    color: #897f8a;
+}
+.technical h2 {
+    color: #5b4c5c;
+    margin-bottom: 49px;
+}
+.technical .skillsArea {
+    padding: 0px;
+}
+.technical .skills {
+    margin: 0 auto;
+    margin-bottom: 23px;
+    text-align: center;
+    padding: 0px;
+    float: none;
+}
+.technical .skills p {
+    color: #897f8a;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.technical .skills p a {
+    text-decoration: underline;
+    color: #ef7674;
+}
+.technical .skills p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.technical .skills img {
+    margin: 0 auto;
+    margin-bottom: 33px;
+    width: 100%;
+    max-width: 152px;
+}
+.technical .skills h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5b4c5c;
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 118px;
+    height: 118px;
+    text-align: center;
+}
+.chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.percent {
+    display: inline-block;
+    font-size: 21px;
+    color: #5b4c5c;
+    line-height: 118px;
+    z-index: 2;
+    font-weight: bold;
+}
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em;
+}
+.angular {
+    margin-top: 100px;
+}
+.angular .chart {
+    margin-top: 0;
+}
 
