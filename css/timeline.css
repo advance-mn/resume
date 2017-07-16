@@ -68,9 +68,9 @@ New Timeline
 
 .timeline-body {
   position: relative;
-  padding: 20px;
-  margin-top: 20px;
-  margin-left: 110px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 120px;
   background-color: #d7deda;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -88,7 +88,7 @@ New Timeline
 
 .timeline-body-arrow {
   position: absolute;
-  top: 30px;
+  top: 15px;
   left: -14px;
   width: 0;
   height: 0;
