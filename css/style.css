@@ -13,7 +13,6 @@ h1 strong {
 	font-weight: 900;
 }
 h2 {
-	text-transform: uppercase;
 	line-height: 20px;
 	margin: 0;
 }
@@ -155,7 +154,6 @@ ul, ol {
 }
 .intro .intro-body .brand-heading {
 	color: #F4D03F;
-	text-transform: uppercase;
 	letter-spacing: -2px;
 }
 .intro .intro-body .intro-text {
@@ -168,7 +166,7 @@ ul, ol {
 	padding: 0;
 }
 .intro .intro-body H1 {
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: -2px;
 }
@@ -732,4 +730,3 @@ label {
 .angular .chart {
     margin-top: 0;
 }
-
